@@ -10,13 +10,13 @@ import pandas as pd
 model = load_model('model.h5')
 
 ### theencoder and scaler
-with open('c:\\ML\\ANN\\label_encoder_gender.pkl','rb') as file:
+with open('label_encoder_gender.pkl','rb') as file:
     label_encoder_gender =pickle.load(file)
 
-with open('c:\\ML\\ANN\\onehot_encoder_geo.pkl','rb') as file:
+with open('onehot_encoder_geo.pkl','rb') as file:
     onehot_encoder_geo =pickle.load(file)
 
-with open('c:\\ML\\ANN\\scaler.pkl','rb') as file:
+with open('scaler.pkl','rb') as file:
     scaler =pickle.load(file)
 
 #streamlet app
