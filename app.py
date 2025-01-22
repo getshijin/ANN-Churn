@@ -66,5 +66,6 @@ if prediction_prob>.5:
     st.write(f'the customer is likey to{prediction_prob}')
     st.write('the customer is likey to Churn')
 else:
+    st.write(f'the customer is likey to{prediction_prob}')
     st.write('the customer is not likey to Churn')
 
