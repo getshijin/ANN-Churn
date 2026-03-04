@@ -63,9 +63,10 @@ prediction = model.predict(input_data_scaled)
 prediction_prob = prediction[0][0]
 
 if prediction_prob>.5:
-    st.write(f'the customer is likey to{prediction_prob}')
+    st.write(f'the customer prediction {prediction_prob}')
     st.write('the customer is likey to Churn')
 else:
-    st.write(f'the customer is likey to{prediction_prob}')
+    st.write(f'the customer prediction {prediction_prob}')
     st.write('the customer is not likey to Churn')
+
 
